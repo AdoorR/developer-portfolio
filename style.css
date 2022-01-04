@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,6 +48,7 @@ section{
 .pp{
     font-size: 25px;
     color: rgba(180, 122, 13, 0.747);
+    padding-right: 80px;
 }
 .andd{
     color: rgba(18, 15, 224, 0.856);
@@ -60,6 +61,53 @@ section{
 .sefa{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: rigt;
-    padding-bottom: 300px;
-}
+    background-position: right;
+    padding-bottom: 150px;
+   }
+   .future{
+       background-image: url(images/exp-bg.png);
+       background-repeat: no-repeat;
+       background-position: left;
+   }
+   .amra{
+       color: rgba(82, 41, 230, 0.795);
+       padding-left: 100px;
+   }
+   .feel{
+       color: rgba(144, 5, 179, 0.918);
+   }
+   .life{
+       color: rgb(214, 107, 19);
+   }
+   .tmi{
+       color: rgba(6, 117, 62, 0.884);
+       font-size: 25px;
+   }
+   .ami{
+       color: rgba(23, 155, 231, 0.959);
+       font-size: 25px;
+    }
+    .ami-tmi{
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 3%;
+        padding-left: 25px;
+        border-radius: 10px;
+        box-shadow: 10px 10px  35px rgba(172, 61, 223, 0.842);
+        
+    }
+    #ador-sefa{
+        border-left: 10px solid;
+        border-image: linear-gradient(rgb(177, 16, 226), rgb(236, 50, 17));
+        border-image-slice: 1;
+    }
+    #sefa-ador{
+        border-left: 10px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+        color: rgba(192, 192, 192, 0.829);
+    }
+    
